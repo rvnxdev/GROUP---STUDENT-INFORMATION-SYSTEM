@@ -1,0 +1,31 @@
+STUDENT INFORMATION SYSTEM FOR ACADEMICS, PROFILE AND PERFORMANCES - 5-MEMBER ROLE (JAVA + OOP + DATABASE)
+
+MEMBER 1: Database Setup & Connection (DatabaseConnection.java + SQL Script)
+- Design the database tables (MySQL / SQLite) and write the CREATE TABLE SQL script.
+- Share the .sql file with all members on Day 1 so everyone has the exact same table/column names.
+- Create DatabaseConnection.java using DriverManager.getConnection() to connect Java to the database.
+
+MEMBER 2: Base Class & Abstraction (Person.java + UserActions.java)
+- Create the parent Person class with private fields (id, name, age) + constructors, getters, and setters (Encapsulation).
+- Create an abstract class or interface (e.g., UserActions) to define standard system rules (Abstraction).
+
+MEMBER 3: Subclasses & Polymorphism (Student.java + Instructor.java)
+- Create Student and Instructor classes that extend Person (Inheritance).
+- Add specific fields (e.g., course, yearLevel, gpa for Student; department for Instructor).
+- Override displayInfo() methods in each subclass to show custom details (Polymorphism).
+
+MEMBER 4: Database Operations / DAO (StudentDAO.java)
+- Write SQL queries using PreparedStatement and ResultSet for CRUD operations (Add, View, Update, Delete).
+- Store rows fetched from the database into a Student[] array or ArrayList<Student> before returning them (Arrays).
+
+MEMBER 5: Main Menu & Integration (Main.java)
+- Build the user interface / console menu using Scanner and loops.
+- Connect everyone's classes together, handle user input validation, and call Member 4's database methods.
+- Combine all .java files and run final testing.
+
+Put progress on every day project timeline.
+
+Creating flow chart of our project system: ✓
+Divide the parts with members: ?
+Ask for progress: 
+Planning:
