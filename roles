@@ -29,3 +29,5 @@ Creating flow chart of our project system: ✓
 Divide the parts with members: ?
 Ask for progress: 
 Planning:
+
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe" --init-file=C:\Users\User\Desktop\mysql-init.txt --console
