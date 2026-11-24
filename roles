@@ -33,3 +33,22 @@ Planning:
 "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe" --init-file=C:\Users\User\Desktop\mysql-init.txt --console
 "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe" --defaults-file="C:\ProgramData\MySQL\MySQL Server 8.0\my.ini" --init-file=C:\Users\User\Desktop\mysql-init.txt --console
 
+CREATE DATABASE IF NOT EXISTS student_info_system;
+USE student_info_system;
+
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    age INT,
+    course VARCHAR(100),
+    year_level INT,
+    gpa DECIMAL(3, 2)
+);
+
+CREATE TABLE instructors (
+    instructor_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    department VARCHAR(100)
+);
