@@ -31,3 +31,5 @@ Ask for progress:
 Planning:
 
 "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe" --init-file=C:\Users\User\Desktop\mysql-init.txt --console
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld.exe" --defaults-file="C:\ProgramData\MySQL\MySQL Server 8.0\my.ini" --init-file=C:\Users\User\Desktop\mysql-init.txt --console
+
