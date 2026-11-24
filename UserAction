@@ -23,3 +23,16 @@ class action {
     public void displayInfo() {
         System.out.println("[Extended User] ID: " + getId() + ", Name: " + getName() + ", Age: " + getAge());
     }
+
+public abstract class Person extends action {
+    private String category;
+
+    public Person(int id, String name, int age, String category) {
+        super(id, name, age); // Call the Person constructor
+        this.category = category;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+}
